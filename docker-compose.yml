@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  dl-project:
+    build: .
+    container_name: dl_project_container
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    restart: always
