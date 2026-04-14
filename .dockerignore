@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+# Git files
+.git
+.gitignore
+
+# Mac files
+.DS_Store
+
+# Logs
+*.log
